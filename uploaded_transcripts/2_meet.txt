@@ -1,0 +1,87 @@
+[00:00] AE (Anita): Hi team, thanks for joining. I know Ravi and Mehul are both working across multiple vendor evaluations this week, so I’ll keep this tight. Today’s agenda — finalize pricing for the Document Intelligence Suite pilot and address a few contract redlines your legal team raised.
+
+[00:18] Prospect (Ravi): Thanks Anita. Yes, we’re evaluating your platform alongside DataFold and HyperIQ.
+
+[00:24] AE: Absolutely. Quick recap from our last call — we covered invoice data extraction accuracy (92%), API latency under 400ms, and your plan to integrate into your internal claims workflow. Anything to add before we start?
+
+[00:36] Prospect (Mehul): No, that’s good. Just want to discuss total cost and payment structure.
+
+[00:40] AE: Great. Vikram, can you walk through our standard pricing tiers?
+
+[00:43] Vikram (Finance Manager): Sure. We have three main SKUs for Document Intelligence:
+
+• Starter – ₹1.2 per document, up to 25,000 docs/month
+• Pro – ₹1.0 per document, includes OCR + entity recognition
+• Enterprise – ₹0.85 per document, adds human-in-the-loop QA and API throttling lift
+
+For FinServe, based on your current claims volume (~180,000 per month), we suggest the Enterprise plan.
+
+[01:10] Prospect (Ravi): DataFold quoted us ₹0.75 per document with unlimited API calls. Why are you higher?
+
+[01:17] AE: That’s fair, Ravi. DataFold limits document size to 3 MB and charges ₹0.50 for every MB over. Our pricing covers up to 10 MB per doc — which for insurance claims like yours is critical. Also, we include 24x7 support and SLA-based accuracy monitoring at no cost.
+
+[01:36] Prospect (Mehul): Okay. Do you provide audit logs for every processed document?
+
+[01:41] AE: Yes, available in the dashboard and via webhook. We’re SOC 2 Type II certified.
+
+[01:47] Prospect (Ravi): Good. Now about pricing flexibility — we plan to start with 100,000 docs per month. Can we lock a rate before scaling up?
+
+[01:54] Vikram: Yes. If you commit to a minimum monthly volume of 100k, we can lock the ₹0.85 rate for 12 months even if usage increases.
+
+[02:03] Prospect (Mehul): That’s helpful. What if we sign a 2-year contract?
+
+[02:07] Vikram: Then we can drop to ₹0.80 per document and freeze that rate for both years.
+
+[02:13] AE: Also, as a logo client in the BFSI vertical, we can offer a case-study discount of 5%. That brings it down effectively to ₹0.76/document.
+
+[02:22] Prospect (Ravi): HyperIQ is offering ₹0.70 with their OCR 2.0 beta.
+
+[02:27] AE: We benchmarked HyperIQ’s beta model last month — their precision on handwritten forms is 77%. Ours is 89%. For banking claims, that accuracy difference saves you manual QA hours.
+
+[02:38] Prospect (Mehul): Makes sense. CFO wants payback within two quarters though.
+
+[02:43] AE: Let me show you the ROI calculator. (shares Excel sheet)
+
+[02:47] AE: Based on your current manual validation cost of ₹25 per document, even at ₹0.76, your payback period is 4.5 months.
+
+[02:55] Prospect (Ravi): That’s convincing. What about implementation fees?
+
+[02:59] Vikram: Waived for pilots starting this quarter.
+
+[03:02] Prospect (Mehul): Fine. Regarding the MSA, our legal team added a few redlines. Olivia, can we go through them?
+
+[03:07] Olivia (Legal Counsel): Sure. The main points were:
+
+Data Retention: We proposed 30 days; you requested 60. We’re fine with 60.
+Liability Cap: You had 24 months’ fees; our policy allows 12 months only.
+Termination Clause: You added “termination for convenience” — we can allow that with 60 days’ notice post initial 6 months.
+
+[03:35] Prospect (Mehul): That works for us.
+
+[03:37] AE: Great, that clears the legal path. Vikram, let’s finalize commercials.
+
+[03:41] Vikram: For 100k documents/month at ₹0.76 per document, total monthly = ₹76,000. Annual commitment = ₹9.12 L. For a 2-year term, we’ll invoice ₹18.24 L, billed quarterly.
+
+[03:55] Prospect (Ravi): And this includes 24x7 support, audit logs, and analytics dashboard?
+
+[03:59] AE: All included.
+
+[04:01] Prospect (Mehul): We’d like a rate review after 12 months if usage exceeds 300k/month.
+
+[04:05] Vikram: We can insert a volume re-tier clause. Over 300k/month, new rate = ₹0.70/document.
+
+[04:12] Prospect (Ravi): Perfect. Send the final proposal by tomorrow morning. CFO approval cycle is short this week.
+
+[04:18] AE: Done. We’ll send DocuSign and TCO sheet by 9 AM IST.
+
+[04:22] Prospect (Mehul): Great.
+
+[04:24] AE: Thanks everyone — appreciate the collaboration.
+
+[04:26] Call ends.
+
+Summary:
+
+Date: 07 Oct 2025
+Duration: 75 mins
+Participants: 5

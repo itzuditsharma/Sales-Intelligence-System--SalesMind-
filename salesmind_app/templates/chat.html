@@ -1,0 +1,105 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SalesMind - Chat</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/chat.css' %}" />
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/progress_bar.css' %}" />
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/add_transcripts.css' %}" />
+
+  <meta name="csrf-token" content="{{ csrf_token }}">
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div>
+      <h2>SalesMind</h2>
+      <ul>
+        <li><a href="{% url 'index' %}">Dashboard</a></li>
+        <li class="active"><a href="{% url 'chat' %}">Chat Page</a></li>
+        <li><a href="{% url 'call_logs' %}">Call Logs</a></li>
+        <li><a href="{% url 'knowledge_graph' %}">Knowledge Graph</a></li>
+        <li><a href="#" id="openTranscriptModal">Add Transcripts</a></li>
+      </ul>
+    </div>
+    <div class="logout"><a href="#">Logout</a></div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="chat-header">
+      <h1>AI Chat Assistant</h1>
+      <p>Ask anything about your sales insights, clients, or deals</p>
+    </div>
+
+    <!-- Chat Container -->
+    <div class="chat-container" id="chatContainer">
+      <div class="message bot">
+        <div class="bubble">Hello 👋! How can I assist you with your sales data today?</div>
+      </div>
+    </div>
+
+    <!-- Input Area -->
+    <div class="chat-input-area">
+      <label for="chatFileInput" class="attach-btn">
+        <i class="fa-solid fa-paperclip"></i>
+      </label>
+      <input type="file" id="chatFileInput" style="display: none;" accept=".txt,.pdf,.docx,.csv" />
+      <input type="text" id="userInput" placeholder="Send a message..." />
+      <button id="sendBtn"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+
+  <div class="modal-overlay" id="uploadSuccessModal" style="display: none;">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Upload Successful</h2>
+        <span class="close-modal" id="closeSuccessModal">&times;</span>
+      </div>
+      <div class="modal-body" id="successModalBody">
+        <!-- Success message will be injected here -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn" id="okBtn">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Upload Transcript Modal -->
+  <div class="modal-overlay" id="transcriptModal">
+    <div class="modal">
+        <div class="modal-header">
+            <h2>Upload Transcript</h2>
+            <span class="close-modal" id="closeModal">&times;</span>
+        </div>
+
+        <div class="modal-body">
+            <div class="upload-box" id="uploadBox">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <p>Drag & Drop your file here or click to browse</p>
+            <input type="file" id="fileInput" accept=".txt,.pdf,.docx,.csv" />
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <button class="btn cancel" id="cancelBtn">Cancel</button>
+            <button class="btn upload" id="uploadBtn">Upload</button>
+        </div>
+    </div>
+    </div>
+
+  <script src="{% static 'salesmind_app/scripts/add_transcripts.js' %}"></script>
+  <script src="{% static 'salesmind_app/scripts/chat.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Hydra",
+    "lead": "Alice Johnson",
+    "customer": "Acme Corp",
+    "image": "/static/salesmind_app/data/KGImages/Hydra.png"
+  },
+  {
+    "name": "HypLiquid",
+    "lead": "Mark Spencer",
+    "customer": "TechNova Ltd",
+    "image": "/static/salesmind_app/data/KGImages/HypLiquid.png"
+  },
+  {
+    "name": "NovaHealth Systems",
+    "lead": "Emily Brown",
+    "customer": "FutureBank",
+    "image": "/static/salesmind_app/data/KGImages/NovaHealth_Systems.png"
+  },
+  {
+    "name": "Ventron",
+    "lead": "James Carter",
+    "customer": "GlobalMart",
+    "image": "/static/salesmind_app/data/KGImages/Ventron.png"
+  },
+  {
+    "name": "Xeron",
+    "lead": "James Carter",
+    "customer": "GlobalMart",
+    "image": "/static/salesmind_app/data/KGImages/Xeron.png"
+  }
+]

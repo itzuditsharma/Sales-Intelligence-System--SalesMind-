@@ -1,0 +1,12 @@
+2025-2-10 11:05 – Rohit Sharma: Hi Priya, Hydra’s team reviewed our automation suite versus Freshdesk. Any feedback?  
+2025-2-10 11:06 – Priya Mehta: Yes, Rohit. Freshdesk quoted ₹2.5 Lakhs with basic workflow automation.  
+2025-2-10 11:07 – Rohit Sharma: Our quote is ₹3.1 Lakhs, includes SLA monitoring and escalation workflows.  
+2025-2-10 11:08 – Priya Mehta: ₹3.1 Lakhs is a bit high for this quarter; finance is focusing on cost-saving.  
+2025-2-10 11:09 – Rohit Sharma: If I remove SLA monitoring and adjust to ₹2.7 Lakhs, does that help?  
+2025-2-10 11:10 – Priya Mehta: ₹2.7 Lakhs is closer, but Freshdesk has a 2-month free onboarding offer.  
+2025-2-10 11:11 – Rohit Sharma: I could match that price and add 1 extra month of support. Would that work?  
+2025-2-10 11:12 – Priya Mehta: Leadership is leaning toward Freshdesk due to their dedicated implementation manager.  
+2025-2-10 11:13 – Rohit Sharma: I see. Any chance they reconsider SLA importance?  
+2025-2-10 11:14 – Priya Mehta: They acknowledged it but budget is strict.  
+2025-2-10 11:15 – Rohit Sharma: Understood. I’ll keep our proposal valid for 30 days in case anything changes.  
+2025-2-10 11:16 – Priya Mehta: Yes, if Freshdesk slips on timeline, we may reconnect with your proposal.

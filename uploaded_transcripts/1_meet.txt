@@ -1,0 +1,133 @@
+[00:00] AE (Liam):  Morning everyone. Thanks for joining. I’ve got Sarah from Legal, Ritesh from Pricing, and Emily, our Product Specialist, joining from our side. The goal today is to finalize commercial terms for the Cloud AI Suite pilot with NovaHealth Systems and address objections raised by Procurement. We’ll also touch on contract structure and competitor comparisons. Does that sound good?
+
+[00:20] Prospect (Aisha – Procurement Head):  Yes, sounds good, Liam.
+
+[00:22] Prospect (Raj – CIO):  Works for me. I’ve got 45 minutes before another vendor review.
+
+[00:30] AE:  Perfect. Quick recap — last week we demoed the InsightAI dashboards, covered the HIPAA compliance requirements, and discussed integration timelines with your Salesforce org. Today, it’s mainly pricing and legal alignment.
+
+[00:45] Emily (Product Specialist):  Just a reminder — NovaHealth requested the NLP summarization and analytics modules only, not full AI automation, right?
+
+[00:52] Prospect (Raj):  Correct. Our clinical operations team wants to evaluate reporting accuracy first before expanding.
+
+[00:58] AE:  Got it. Ritesh, can you pull up our price card for reference?
+
+[01:02] Ritesh (Pricing Manager):  Sure. Here’s our list pricing for the Cloud AI Suite:
+
+• **Essentials** — ₹1,500/user/month, annual billing.
+• **Professional** — ₹2,200/user/month, adds API access, PII masking, and 24x7 support.
+• **Enterprise** — ₹2,800/user/month, includes analytics export, data residency options, and a dedicated solution architect.
+
+For the NovaHealth use case, 80 seats on Professional tier is what we’ve modelled.
+
+[01:30] Prospect (Aisha):  Noted. Competitor QuantisAI quoted us ₹1,700 flat for their Pro plan with no user cap and included data residency in Singapore. How are you higher?
+
+[01:42] AE:  Great question. QuantisAI includes limited monthly token usage—after 4,000 requests, latency increases. Our Professional tier includes unlimited requests and HIPAA-aligned redaction built-in. Also, our data stays within the Azure India region, which fits your compliance policy better than Singapore.
+
+[01:59] Prospect (Raj):  True, our compliance officer did mention the region requirement. But our CFO will still want total cost justification.
+
+[02:05] Ritesh:  We’ve done a 3-year TCO analysis comparing our AI Suite vs QuantisAI and DeepCore. If you check the sheet we shared, QuantisAI’s renewal uplift is 12% annually, while ours is capped at 5%. Over three years, we’re actually cheaper by 7%.
+
+[02:24] Prospect (Aisha):  That’s helpful. What about implementation fees?
+
+[02:28] AE:  For pilots, we waive setup fees. For full deployment, ₹1.5 L implementation is billed only after production go-live.
+
+[02:35] Prospect (Raj):  Good to know. Let’s also talk about deal flexibility. Our finance team prefers quarterly payments.
+
+[02:41] Ritesh:  Quarterly billing is fine—no surcharge.
+
+[02:44] AE:  Excellent. So, 80 Professional seats, 12-month pilot, potential scale-up to 300 if success. Let’s discuss discount structure.
+
+[02:53] Ritesh:  Sure. Discount levers are:
+
+1. **Volume** – 5% for >100 seats, 10% for >250.
+2. **Term** – 8% for 3-year commitment.
+3. **Logo** – 10% if we can use NovaHealth as a case study.
+
+We can stack up to 20%.
+
+[03:18] Prospect (Aisha):  QuantisAI gave us 15% on a 2-year term with opt-out after 12 months. Can you match?
+
+[03:24] AE:  We can’t do opt-outs on multi-year, but we can add a Year-1 performance clause — if KPIs aren’t met, you can exit with 30 days’ notice.
+
+[03:33] Prospect (Raj):  Acceptable. How fast can you sign the MSA?
+
+[03:37] Sarah (Legal Counsel):  Our legal team reviewed your redlines yesterday. Only open item is the liability cap — we propose 12 months’ fees, while your draft says “unlimited.” That won’t work for us.
+
+[03:47] Prospect (Aisha):  We can accept 12 months’ cap if uptime SLA is guaranteed at 99.9% and includes penalty credit.
+
+[03:54] Sarah:  Done. We can include 10% monthly credit for SLA breach.
+
+[04:00] AE:  Great. Back to pricing — if we stack 8% (term) + 10% (logo), that’s 18% off list. 80 × ₹2,200 = ₹1,76,000/mo; discounted = ₹1,44,320/mo. Over a year, ₹17.3 L.
+
+[04:20] Prospect (Aisha):  QuantisAI offered ₹16 L flat with free success hours.
+
+[04:25] AE:  Their “success hours” are limited to 10 per quarter; ours are unlimited during the pilot. Plus, we include proactive model drift monitoring, which they don’t.
+
+[04:35] Prospect (Raj):  I like that. Model drift detection is a plus.
+
+[04:38] AE:  Exactly. Also, their fine-tuned LLM is proprietary; ours supports BYO-model—NovaHealth can host its own Llama-3 instance if desired.
+
+[04:47] Prospect (Aisha):  That flexibility might justify the delta.
+
+[04:51] Ritesh:  We can sweeten slightly — add 2% partner alignment discount for closing before month-end. That gets you 20% total.
+
+[04:58] Prospect (Raj):  Sounds fair. What about renewal uplift?
+
+[05:01] AE:  4% annual cap.
+
+[05:03] Prospect (Aisha):  Perfect. What’s the TCV then?
+
+[05:06] Ritesh:  ₹17.3 L × 0.80 = ₹13.84 L annual; three years = ₹41.5 L TCV.
+
+[05:14] Prospect (Raj):  That’s within range. CFO approved ₹42 L max.
+
+[05:18] AE:  Excellent. Let’s lock that in.
+
+[05:21] Prospect (Aisha):  Wait — procurement wants a one-time security audit before deployment. Any additional cost?
+
+[05:26] Emily:  Nope. We provide audit documentation and will assist in onboarding review.
+
+[05:30] Prospect (Raj):  Okay. Can you include SOC 2 Type II and ISO 27001 certs in the pack?
+
+[05:34] AE:  Yes, I’ll attach those with the order form.
+
+[05:38] Ritesh:  Should we include a 3-month pilot clause converting automatically to production unless cancelled?
+
+[05:43] Prospect (Aisha):  Yes, but we’ll want a 15-day cancellation window.
+
+[05:46] Sarah:  Noted — we’ll include that in Schedule C.
+
+[05:50] AE:  Great. One last check: Raj, any objections from IT security or compliance?
+
+[05:54] Prospect (Raj):  None. They reviewed your architecture diagram; all good. Just ensure the data residency line explicitly says “India Central region.”
+
+[06:00] AE:  Will do.
+
+[06:03] Prospect (Aisha):  Then we’re aligned.
+
+[06:05] AE:  Fantastic. Here’s the summary:
+
+* 80 Professional seats @ ₹2,200 list
+* 20% total discount
+* 3-year term
+* 4% renewal cap
+* SLA 99.9% with credits
+* SOC 2 + ISO certs included
+* Case study agreement
+* Security audit support
+* Auto-convert pilot clause
+
+[06:34] Prospect (Raj):  Looks good.
+
+[06:36] Prospect (Aisha):  Send the DocuSign before 17:00 IST today, please.
+
+[06:40] AE:  Done. We’ll include TCO sheet, certs, and final quote. Appreciate your time.
+
+[06:46] Prospect (Raj):  Likewise. Thanks everyone.
+
+[06:48] AE:  Have a great afternoon!
+
+[06:50] *Call ends.*
+
+[Timestamp: 08 Oct 2025, 11:30 AM IST | Meeting Duration: 50 mins | Recorded via Zoom | Deal: NovaHealth Systems – Cloud AI Suite Pilot | AE: Liam Carter | Stage: Commercial Negotiation | Outcome: Verbal Agreement Pending Signature*

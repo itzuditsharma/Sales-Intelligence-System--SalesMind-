@@ -1,0 +1,11 @@
+2025-12-16 11:32 – Manish Verma: Anika, Hydra compared Zendesk vs Salesforce Service Cloud. What’s the status?
+2025-12-16 11:33 – Anika Bhatt: Salesforce at ₹7.4 Lakhs; Zendesk at ₹6.1 Lakhs.
+2025-12-16 11:34 – Manish Verma: Hydra proposed ₹6.5 Lakhs with SLA monitoring & auto-prioritisation.
+2025-12-16 11:35 – Anika Bhatt: Leadership likes auto-prioritisation but Salesforce has workflow templates.
+2025-12-16 11:36 – Manish Verma: I can include templated workflow library and reduce pricing to ₹6.1 Lakhs.
+2025-12-16 11:37 – Anika Bhatt: That’s competitive; Zendesk still includes team analytics.
+2025-12-16 11:38 – Manish Verma: Adding analytics and ticket forecasting.
+2025-12-16 11:39 – Anika Bhatt: Looks good—reviewing with procurement.
+2025-12-16 11:40 – Manish Verma: Sharing revised document now.
+2025-12-16 11:41 – Anika Bhatt: Thanks, Manish.
+

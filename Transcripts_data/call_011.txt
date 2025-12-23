@@ -1,0 +1,10 @@
+2025-11-02 11:20 – Sahaj Mehta: Neel, HypLiquid compared our Freshworks stack with Salesforce. Thoughts?  
+2025-11-02 11:21 – Neel Kapoor: Salesforce quoted ₹6.5 Lakhs, Freshdesk ₹6.0 Lakhs.  
+2025-11-02 11:22 – Sahaj Mehta: Freshworks proposal is ₹6.3 Lakhs with AI-driven SLA and predictive alerts.  
+2025-11-02 11:23 – Neel Kapoor: Finance still prefers Freshdesk due to lower cost.  
+2025-11-02 11:24 – Sahaj Mehta: I can reduce to ₹6.0 Lakhs and add dedicated onboarding.  
+2025-11-02 11:25 – Neel Kapoor: That helps, but Salesforce offers better ERP integration.  
+2025-11-02 11:26 – Sahaj Mehta: I’ll include migration support and 1-month extended SLA.  
+2025-11-02 11:27 – Neel Kapoor: Leadership will review; your proposal is stronger now.  
+2025-11-02 11:28 – Sahaj Mehta: Sending revised proposal today.  
+2025-11-02 11:29 – Neel Kapoor: Thanks, Sahaj. Will update once internal approval is complete.

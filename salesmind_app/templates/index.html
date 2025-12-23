@@ -1,0 +1,293 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SalesMind</title>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- <script src="/static/salesmind_app/scripts/chart_proposals.js"></script> -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/index.css' %}" />
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/progress_bar.css' %}" />
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/add_transcripts.css' %}" />
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div>
+      <h2>SalesMind</h2>
+      <ul>
+        <li class="active"><a href="{% url 'index' %}">Dashboard</a></li>
+        <li><a href="{% url 'chat' %}">Chat Page</a></li>
+        <li><a href="{% url 'call_logs' %}">Call Logs</a></li>
+        <li><a href="{% url 'knowledge_graph' %}">Knowledge Graph</a></li>
+        <li><a href="#" id="openTranscriptModal">Add Transcripts</a></li>
+      </ul>
+    </div>
+    <div class="logout"><a href="#">Logout</a></div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="top-bar">
+      <h1>Dashboard</h1>
+      <div id="datetime" style="display: none;"></div>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+      <div class="card">
+        <div class="card-content">
+          <div>
+            <h2>{{active_deals}}</h2>
+            <p>Active Deals</p>
+          </div>
+          <i class="fa-solid fa-briefcase"></i>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <div>
+            <h2>{{proposal_count}}</h2>
+            <p>Proposals</p>
+          </div>
+          <i class="fa-solid fa-file-signature"></i>
+        </div>
+      </div>
+
+     <div class="card">
+        <div class="card-content">
+          <div>
+            <div class="company-container">
+              <h2 id="companyCount">--</h2>
+              <p>Total Active Clients</p>
+              <div id="companyList" class="company-list"></div>
+            </div>
+          </div>
+          <i class="fa-solid fa-user-group"></i>
+        </div>
+      </div>
+    
+
+    <script>
+    fetch("/static/salesmind_app/data/projects.json")
+    .then(res => res.json())
+    .then(data => {
+      // Count occurrences of each company name
+      const counts = {};
+      data.forEach(item => {
+        const name = item.name;
+        counts[name] = (counts[name] || 0) + 1;
+      });
+
+      // Prepare elements
+      const companyCountEl = document.getElementById("companyCount");
+      const companyListEl = document.getElementById("companyList");
+
+      // Display total count of unique companies
+      const uniqueCompanies = Object.keys(counts);
+      companyCountEl.textContent = uniqueCompanies.length;
+
+      // Create hover list
+      companyListEl.innerHTML = "";
+      uniqueCompanies.forEach(name => {
+        const p = document.createElement("p");
+        p.textContent = `${name}`;
+        companyListEl.appendChild(p);
+      });
+    })
+    .catch(err => console.error("Error loading company data:", err));
+
+    </script>
+
+      <div class="card">
+        <div class="card-content">
+          <div>
+            <div class="rep-container">
+              <h2 id="repCount">--</h2>
+              <p>Active Sales Reps</p>
+              <div id="repList" class="rep-list"></div>
+            </div>
+          </div>
+          <i class="fa-solid fa-headset"></i>
+        </div>
+      </div>
+    </div>
+    <script>
+    fetch("/static/salesmind_app/data/active_sales_reps.json")
+      .then(res => res.json())
+      .then(data => {
+        const countEl = document.getElementById("repCount");
+        const repListEl = document.getElementById("repList");
+
+        // Handle empty or malformed JSON
+        if (!data || Object.keys(data).length === 0) {
+          countEl.textContent = "0";
+          repListEl.innerHTML = "<p>No active reps</p>";
+          return;
+        }
+
+        // Set count safely
+        const activeReps = data.active_reps ?? 0;
+        const names = Array.isArray(data.names) ? data.names : [];
+
+        countEl.textContent = activeReps;
+
+        // Populate list
+        repListEl.innerHTML = "";
+        if (names.length === 0) {
+          repListEl.innerHTML = "<p>No active reps</p>";
+        } else {
+          names.forEach(name => {
+            const p = document.createElement("p");
+            p.textContent = name;
+            repListEl.appendChild(p);
+          });
+        }
+      })
+      .catch(err => {
+        console.error("Error loading sales rep count:", err);
+        document.getElementById("repCount").textContent = "0";
+        document.getElementById("repList").innerHTML = "<p>Error loading data</p>";
+      });
+    </script>
+
+
+    <!-- Chart & Objections -->
+    <div class="content-row">
+      <div class="chart-container">
+        <h3>Monthly - Proposals Pitched</h3>
+        <canvas id="salesChart"></canvas>
+      </div>
+      <div class="objections">
+        <h3>Objections</h3>
+        <canvas id="objectionsChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Highlights -->
+    <div class="highlights">
+      <h3>Highlights</h3>
+      <div class="highlight-cards" id="highlightCards"></div>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="bottom-row" style="display: flex; gap: 20px;">
+  <!-- Deal Card -->
+  <div class="card deal-card" style="flex: 1; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; min-height: 300px; position: relative;">
+    <div class="card-content">
+      <div class="deal-container" style="text-align: center;">
+         <h2 id="dealValue" style="font-size: 48px; font-weight: bold; margin: 0;">--</h2>
+        <p>Total Deal Value</p>
+      </div>
+      <!-- Icon for visual weight -->
+      <i class="fa-solid fa-coins" style="font-size: 80px; color: #f1c40f; position: absolute; bottom: 20px; right: 20px; opacity: 0.2;"></i>
+    </div>
+  </div>
+
+  <!-- Heatmap Card -->
+  <div class="card heatmap-card" style="flex: 1; padding: 20px; min-height: 300px;">
+    <h3>Competitors Heat Map</h3>
+    <canvas id="heatmapChart" style="width: 100%; height: 100%;"></canvas>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const STATIC_BASE = "{% static 'salesmind_app/data/' %}";
+
+    fetch(STATIC_BASE + "total_deal_value.json")
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+        return res.json();
+      })
+      .then(data => {
+        const dealValueEl = document.getElementById("dealValue");
+        if (!dealValueEl) return console.error("dealValue element not found");
+
+        // Handle empty or invalid JSON gracefully
+        if (!data || Object.keys(data).length === 0 || typeof data.total_value !== "number") {
+          dealValueEl.textContent = "₹0";
+          return;
+        }
+
+        // Format INR currency value
+        const formattedValue = new Intl.NumberFormat("en-IN", {
+          style: "currency",
+          currency: "INR"
+        }).format(data.total_value);
+
+        dealValueEl.textContent = formattedValue;
+      })
+      .catch(err => {
+        console.error("Error loading total deal value:", err);
+        const dealValueEl = document.getElementById("dealValue");
+        if (dealValueEl) dealValueEl.textContent = "₹0";
+      });
+    });
+</script>
+
+
+  <!-- index.html or the template where your modal exists -->
+  <form style="display:none;">
+      {% csrf_token %}
+  </form>
+
+  <!-- Upload Transcript Modal -->
+  <div class="modal-overlay" id="transcriptModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Upload Transcript</h2>
+        <span class="close-modal" id="closeModal">&times;</span>
+      </div>
+
+      <div class="modal-body">
+        <div class="upload-box" id="uploadBox">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+          <p>Drag & Drop your file here or click to browse</p>
+          
+          <input type="file" id="fileInput" accept=".txt,.pdf,.docx,.csv" />
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn cancel" id="cancelBtn">Cancel</button>
+        <button class="btn upload" id="uploadBtn">Upload</button>
+      </div>
+  </div>
+</div>
+
+
+<script>
+  const STATIC_BASE = "{% static 'salesmind_app/data/' %}";
+</script>
+
+<script src="{% static 'salesmind_app/scripts/add_transcripts.js' %}"></script>
+<script src="{% static 'salesmind_app/scripts/index.js' %}"></script>
+
+</body>
+</html>

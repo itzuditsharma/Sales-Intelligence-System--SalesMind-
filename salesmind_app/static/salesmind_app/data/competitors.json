@@ -1,0 +1,8 @@
+{
+  "competitors": [
+    { "name": "CompetitorA", "deals_lost": 12 },
+    { "name": "CompetitorB", "deals_lost": 7 },
+    { "name": "CompetitorC", "deals_lost": 3 },
+    { "name": "CompetitorD", "deals_lost": 9 }
+  ]
+}

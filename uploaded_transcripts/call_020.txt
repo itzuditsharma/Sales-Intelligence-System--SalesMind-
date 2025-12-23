@@ -1,0 +1,9 @@
+2025-07-04 12:15 – Kabir Malhotra: Naina, HypLiquid compared Zendesk vs Freshdesk for support automation. Thoughts?
+2025-07-04 12:16 – Naina Rao: Freshdesk quoted ₹4.5 Lakhs; Zendesk ₹5.2 Lakhs.
+2025-07-04 12:17 – Kabir Malhotra: HypLiquid’s estimate is ₹4.9 Lakhs with AI routing and SLA dashboard.
+2025-07-04 12:18 – Naina Rao: Finance prefers Freshdesk, but SLA dashboard is valuable.
+2025-07-04 12:19 – Kabir Malhotra: I can match ₹4.5 Lakhs and extend SLA reporting for 1 month.
+2025-07-04 12:20 – Naina Rao: Zendesk offers workflow templates.
+2025-07-04 12:21 – Kabir Malhotra: I’ll include templates plus onboarding.
+2025-07-04 12:22 – Naina Rao: Good—sharing with leadership.
+2025-07-04 12:23 – Kabir Malhotra: Sending updated sheet shortly.

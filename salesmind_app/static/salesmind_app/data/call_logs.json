@@ -1,0 +1,131 @@
+[
+  {
+    "id": "call_001",
+    "team": [
+      "Tanya Singh"
+    ],
+    "customer": "Deepak Yadav",
+    "discussion": "The call was about negotiating the price for a CRM stack. Tanya offered a phased rollout to match Deepak's budget, but Deepak mentioned a competing offer from HubSpot. They agreed to prepare a phased implementation plan highlighting ROI and cost efficiency compared to Salesforce."
+  },
+  {
+    "id": "call_020",
+    "team": [
+      "Kabir Malhotra",
+      "Naina Rao"
+    ],
+    "customer": "Naina Rao",
+    "discussion": "The call was about comparing Freshdesk and Zendesk for support automation. Kabir offered to match Freshdesk's price and extend SLA reporting for 1 month. Naina mentioned the value of workflow templates, which Kabir agreed to include along with onboarding. Naina agreed to share this with leadership."
+  },
+  {
+    "id": "call_014",
+    "team": [
+      "Aarav Sharma",
+      "Neha Rao"
+    ],
+    "customer": "Neha Rao",
+    "discussion": "The call was about comparing Zoho Desk and Freshdesk for ticket automation. Aarav Sharma from Hydra proposed a deal matching Zoho's pricing with additional features. Neha Rao from the customer side raised concerns about onboarding, which Aarav agreed to include. The updated proposal is to be reviewed by the customer's leadership."
+  },
+  {
+    "id": "call_017",
+    "team": [
+      "Kavya Iyer",
+      "Rahul Nair"
+    ],
+    "customer": "Hydra",
+    "discussion": "The call was about comparing Mailchimp and Brevo for campaign automation. The team discussed pricing, features like predictive segmentation, A/B testing, and dynamic content. Kavya proposed to match Brevo's pricing and add additional features. Rahul agreed to send the proposal for review."
+  },
+  {
+    "id": "call_016",
+    "team": [
+      "Manish Verma",
+      "Anika Bhatt"
+    ],
+    "customer": "Anika Bhatt",
+    "discussion": "The call was about comparing Salesforce and Zendesk for Hydra. Manish proposed a competitive offer including SLA monitoring, auto-prioritisation, templated workflow library, and analytics at ₹6.1 Lakhs. Anika will review this with procurement."
+  },
+  {
+    "id": "call_002",
+    "team": [
+      "Rohit Sharma"
+    ],
+    "customer": "Priya Mehta",
+    "discussion": "Rohit Sharma from Hydra's team discussed their automation suite with Priya Mehta, comparing it to Freshdesk. Rohit offered a price of ₹3.1 Lakhs, which Priya found high. After negotiations, Rohit proposed ₹2.7 Lakhs with an extra month of support. However, Priya's leadership is leaning towards Freshdesk due to their dedicated implementation manager. Rohit left the proposal open for 30 days for reconsideration."
+  },
+  {
+    "id": "call_015",
+    "team": [
+      "Ridhima Sen",
+      "Karan Patel"
+    ],
+    "customer": "Karan Patel",
+    "discussion": "The call was about Hydra's evaluation of Intercom vs Crisp for customer chat workflows. Ridhima Sen offered a lower price and additional features to match Intercom's offerings. Karan Patel agreed to share the proposal internally."
+  },
+  {
+    "id": "call_019",
+    "team": [
+      "Dev Mehta"
+    ],
+    "customer": "Aisha Karim",
+    "discussion": "The call was about a comparison between HubSpot and Intercom for chat automation. Dev Mehta offered a deal of ₹5 Lakhs including AI chat routing and additional features like dashboards and customer insights module. Aisha Karim will share this with her leadership."
+  },
+  {
+    "id": "call_018",
+    "team": [
+      "Ishaan Kulkarni"
+    ],
+    "customer": "Rhea Malhotra",
+    "discussion": "The call was about Ventron's review of Zoho Projects vs ClickUp for Q3 workflow tracking. Ishaan offered to match Zoho's pricing and extend KPI tracking for 2 extra months. He also agreed to include templates and onboarding. Rhea will present this to the leadership for review."
+  },
+  {
+    "id": "call_009",
+    "team": [
+      "Rohan Kapoor",
+      "Priya Mehta"
+    ],
+    "customer": "Priya Mehta",
+    "discussion": "The call was about a negotiation between Freshworks and Salesforce. Rohan Kapoor from Freshworks offered to match Freshdesk's cost and extend SLA support by 1 month. He also offered migration support and onboarding for 2 months. Priya Mehta from the customer side mentioned that Salesforce has better integration with their existing ERP but agreed to review the revised proposal from Freshworks."
+  },
+  {
+    "id": "call_011",
+    "team": [
+      "Sahaj Mehta",
+      "Neel Kapoor"
+    ],
+    "customer": "Neel Kapoor",
+    "discussion": "The call was about a comparison between Freshworks and Salesforce. Sahaj Mehta, the sales agent, negotiated the price and services of Freshworks to match Salesforce's offer. Neel Kapoor, the customer, will review the revised proposal."
+  },
+  {
+    "id": "call_003",
+    "team": [
+      "Naman Gupta",
+      "Tarini Rao"
+    ],
+    "customer": "Tarini Rao",
+    "discussion": "The call was about a negotiation between Freshworks and HubSpot. Tarini Rao, the customer, initially favored HubSpot due to lower cost. Naman Gupta, the sales agent, offered to reduce the cost of Freshworks and add extra support to match HubSpot's offer. The customer agreed to present this new proposal to her leadership."
+  },
+  {
+    "id": "call_004",
+    "team": [
+      "Sahaj Mehta"
+    ],
+    "customer": "Neel Kapoor",
+    "discussion": "The call was about a negotiation between Sahaj Mehta and Neel Kapoor regarding the cost of a cloud automation service. Sahaj offered to reduce the price and add additional services to match competitor HubSpot's offer. The final decision is pending after a finance discussion."
+  },
+  {
+    "id": "call_010",
+    "team": [
+      "Tanya Singh",
+      "Deepak Yadav"
+    ],
+    "customer": "Deepak Yadav",
+    "discussion": "The call was about a sales negotiation between Tanya Singh and Deepak Yadav. They discussed the pricing and features of Freshworks and HubSpot. Tanya offered to match Freshdesk's price with additional support and dashboard features. Deepak will confirm after internal discussion."
+  },
+  {
+    "id": "call_007",
+    "team": [
+      "Tanya Singh"
+    ],
+    "customer": "Deepak Yadav",
+    "discussion": "The call was about a negotiation between Freshworks and Salesforce. Tanya Singh from Freshworks offered to match Freshdesk's price and add an extra month of support. Deepak Yadav from Xeron's team mentioned budget constraints and the need for integration with existing ERP systems. Tanya agreed to provide integration support. Deepak said the leadership would review the competitive proposal."
+  }
+]

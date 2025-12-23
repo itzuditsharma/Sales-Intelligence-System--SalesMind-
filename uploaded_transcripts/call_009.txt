@@ -1,0 +1,10 @@
+2025-9-11 10:10 – Rohan Kapoor: Priya, Hydra evaluated Freshworks vs Salesforce. Any updates?  
+2025-9-11 10:11 – Priya Mehta: Salesforce quoted ₹6.2 Lakhs, Freshdesk ₹5.8 Lakhs.  
+2025-9-11 10:12 – Rohan Kapoor: Freshworks proposal is ₹6 Lakhs including advanced SLA monitoring.  
+2025-9-11 10:13 – Priya Mehta: Finance prefers Freshdesk’s lower cost, but likes SLA monitoring.  
+2025-9-11 10:14 – Rohan Kapoor: I can match Freshdesk’s cost and extend SLA support by 1 month.  
+2025-9-11 10:15 – Priya Mehta: That works, but Salesforce has better integration with existing ERP.  
+2025-9-11 10:16 – Rohan Kapoor: I’ll include migration support and onboarding for 2 months.  
+2025-9-11 10:17 – Priya Mehta: Leadership will review; this should strengthen your position.  
+2025-9-11 10:18 – Rohan Kapoor: Sending revised proposal now.  
+2025-9-11 10:19 – Priya Mehta: Thanks, Rohan. Will confirm after finance review.

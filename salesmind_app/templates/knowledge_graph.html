@@ -1,0 +1,98 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SalesMind - Knowledge Graph</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/add_transcripts.css' %}" />
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/progress_bar.css' %}" />
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/knowledge_graph.css' %}" />
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div>
+      <h2>SalesMind</h2>
+      <ul>
+        <li><a href="{% url 'index' %}">Dashboard</a></li>
+        <li><a href="{% url 'chat' %}">Chat Page</a></li>
+        <li><a href="{% url 'call_logs' %}">Call Logs</a></li>
+        <li class="active"><a href="{% url 'knowledge_graph' %}">Knowledge Graph</a></li>
+        <li><a href="#" id="openTranscriptModal">Add Transcripts</a></li>
+      </ul>
+    </div>
+    <div class="logout"><a href="#">Logout</a></div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="page-header">
+      <h1>🧠 Knowledge Graph</h1>
+      <p>Explore project connections between leads and customers</p>
+    </div>
+
+    <!-- Knowledge Graph Table -->
+    <div class="graph-container">
+      <div class="graph-header">
+        <div>Project Name</div>
+        <div>Lead</div>
+        <div>Customer Name</div>
+      </div>
+      <div id="graphBody_k"></div>
+    </div>
+  </div>
+
+  <!-- Upload Transcript Modal -->
+  <div class="modal-overlay" id="transcriptModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Upload Transcript</h2>
+        <span class="close-modal" id="closeModal">&times;</span>
+      </div>
+
+      <div class="modal-body">
+        <div class="upload-box" id="uploadBox">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+          <p>Drag & Drop your file here or click to browse</p>
+          <input type="file" id="fileInput" accept=".txt,.pdf,.docx,.csv" />
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn cancel" id="cancelBtn">Cancel</button>
+        <button class="btn upload" id="uploadBtn">Upload</button>
+      </div>
+  </div>
+</div>
+
+
+
+  <!-- Modal -->
+  <div class="modal-overlay_k" id="graphModal_k">
+    <div class="modal_k">
+      <div class="modal-header_k">
+        <h2 id="modalTitle_k">Knowledge Graph</h2>
+        <span class="close-modal_k" id="closeModal_k">&times;</span>
+      </div>
+      <div class="modal-body_k">
+        <img id="graphImage_k" src="" alt="Knowledge Graph" />
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="{% static 'salesmind_app/scripts/add_transcripts.js' %}"></script>
+  <script src="{% static 'salesmind_app/scripts/knowledge_graph.js' %}"></script>
+</body>
+</html>

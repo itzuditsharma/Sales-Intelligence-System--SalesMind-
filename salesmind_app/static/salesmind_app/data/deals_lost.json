@@ -1,0 +1,24 @@
+{
+  "competitors": [
+    {
+      "name": "HubSpot",
+      "deals_lost": 4
+    },
+    {
+      "name": "Freshdesk",
+      "deals_lost": 2
+    },
+    {
+      "name": "Crisp",
+      "deals_lost": 1
+    },
+    {
+      "name": "ClickUp",
+      "deals_lost": 1
+    },
+    {
+      "name": "Salesforce",
+      "deals_lost": 2
+    }
+  ]
+}

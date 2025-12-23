@@ -1,0 +1,86 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SalesMind - Call Logs</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/add_transcripts.css' %}" />
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/progress_bar.css' %}" />
+  <link rel="stylesheet" href="{% static 'salesmind_app/css/call_logs.css' %}" />
+  <script id="call-logs-data" type="application/json">
+        {{ call_logs_data_json|safe }}
+    </script>
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div>
+      <h2>SalesMind</h2>
+      <ul>
+        <li><a href="{% url 'index' %}">Dashboard</a></li>
+        <li><a href="{% url 'chat' %}">Chat Page</a></li>
+        <li class="active"><a href="{% url 'call_logs' %}">Call Logs</a></li>
+        <li><a href="{% url 'knowledge_graph' %}">Knowledge Graph</a></li>
+        <li><a href="#" id="openTranscriptModal">Add Transcripts</a></li>
+      </ul>
+    </div>
+    <div class="logout"><a href="#">Logout</a></div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="page-header">
+      <h1>📞 Call Logs</h1>
+      <p>Review call summaries and discussion points with clients</p>
+    </div>
+
+    <!-- Call Log Container -->
+    <div class="calllogs-container">
+      <div class="calllogs-header">
+        <div>Call ID</div>
+        <div>Customer Name</div>
+        <div>Sales Team Members</div>
+        <div>Discussion Point</div>
+      </div>
+      <div id="calllogsBody"></div>
+    </div>
+  </div>
+
+  <!-- Upload Transcript Modal -->
+  <div class="modal-overlay" id="transcriptModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Upload Transcript</h2>
+        <span class="close-modal" id="closeModal">&times;</span>
+      </div>
+
+      <div class="modal-body">
+        <div class="upload-box" id="uploadBox">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+          <p>Drag & Drop your file here or click to browse</p>
+          <input type="file" id="fileInput" accept=".txt,.pdf,.docx,.csv" />
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn cancel" id="cancelBtn">Cancel</button>
+        <button class="btn upload" id="uploadBtn">Upload</button>
+      </div>
+  </div>
+</div>
+
+<script src="{% static 'salesmind_app/scripts/add_transcripts.js' %}"></script>
+<script src="{% static 'salesmind_app/scripts/call_logs.js' %}"></script>
+</body>
+</html>

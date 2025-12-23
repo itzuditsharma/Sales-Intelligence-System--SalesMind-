@@ -1,0 +1,10 @@
+2025-12-20 14:10 – Sahaj Mehta: Hi Neel, checking in — did your team review our Freshworks support suite compared to Freshdesk?  
+2025-12-20 14:11 – Neel Kapoor: Yes, Sahaj. Freshdesk quoted ₹3.2 Lakhs annually, including multi-channel ticketing and SLA tracking.  
+2025-12-20 14:12 – Sahaj Mehta: Got it. Our Freshworks proposal is ₹3.5 Lakhs, but it includes AI-based ticket routing, analytics dashboards, and 24/7 support.  
+2025-12-20 14:13 – Neel Kapoor: I see. Finance likes Freshdesk’s pricing, but they were impressed by Freshworks’ AI automation. HubSpot’s service module was also evaluated.  
+2025-12-20 14:14 – Sahaj Mehta: Understood. If I reduce our quote to ₹3.3 Lakhs and include 2 months of free onboarding, would that make Freshworks more competitive?  
+2025-12-20 14:15 – Neel Kapoor: That’s closer. But Freshdesk also offered a dedicated implementation manager for the first quarter. Salesforce was mentioned as a possible upgrade for enterprise scaling.  
+2025-12-20 14:16 – Sahaj Mehta: I can include a dedicated manager for 6 weeks and provide migration support for Salesforce compatibility.  
+2025-12-20 14:17 – Neel Kapoor: That’s helpful, Sahaj. I’ll share this with leadership and finance to see if we can proceed with Freshworks.  
+2025-12-20 14:18 – Sahaj Mehta: Perfect. I’ll send the revised proposal today for your review.  
+2025-12-20 14:19 – Neel Kapoor: Thanks, Sahaj. I’ll update you once the decision is made internally.

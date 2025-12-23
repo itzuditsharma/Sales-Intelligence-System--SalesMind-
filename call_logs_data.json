@@ -1,0 +1,90 @@
+[
+  {
+    "id": "call_001",
+    "team": [
+      "Priya Mehra",
+      "Arjun Mehta"
+    ],
+    "customer": "Arjun Mehta",
+    "discussion": "Priya and Arjun discussed the pricing of their automation suite compared to Zoho CRM. Arjun's budget was \u20b93.8 Lakhs, which Priya managed to match by waiving the onboarding fee and including additional features like WhatsApp API capture and escalation workflows. They also negotiated the number of licenses and payment terms, with Priya offering 25 licenses and a 45-day payment window. The call ended with Arjun agreeing to close the deal internally."
+  },
+  {
+    "id": "call_008",
+    "team": [
+      "Suresh Iyer",
+      "Harini Deshpande"
+    ],
+    "customer": "Harini Deshpande",
+    "discussion": "Suresh Iyer and Harini Deshpande discussed the CRM upgrade. Harini agreed to finalize the contract, with concerns about the onboarding timeline and license activation for 30 users. Suresh confirmed immediate onboarding and provided details about the agreement, payment terms, and support SLA. Harini requested a training session for her team. The contract was signed and activation was immediate."
+  },
+  {
+    "id": "call_002",
+    "team": [
+      "Kunal Sharma",
+      "Ritu Jain"
+    ],
+    "customer": "Ritu Jain",
+    "discussion": "Kunal Sharma and Ritu Jain discussed their respective proposals, comparing them to a competing offer from Freshworks. Kunal attempted to negotiate by adjusting features and pricing, but Ritu indicated that the decision was leaning towards Freshworks due to their commitment and the involvement of their CTO. Ritu also mentioned that the PO for Freshworks was approved and they were expecting the e-agreement the next day. However, Ritu asked Kunal to keep their proposal open for 30 days in case of any implementation issues with Freshworks."
+  },
+  {
+    "id": "call_006",
+    "team": [
+      "Shweta Rao"
+    ],
+    "customer": "Mahesh Batra",
+    "discussion": "Shweta Rao followed up with Mahesh Batra regarding the marketing automation add-on. Mahesh's finance team is still reviewing the budget. Shweta offered to prepare a cost breakdown and feature comparison with Freshdesk's standard plan. They agreed to have a decision call on Friday after a walkthrough and finance review."
+  },
+  {
+    "id": "call_005",
+    "team": [
+      "Rohit Suri",
+      "Aisha Khan"
+    ],
+    "customer": "Aisha Khan",
+    "discussion": "Rohit Suri and Aisha Khan discussed WhatsApp automation services. Aisha's team was considering Rohit's proposal against LeadSquared's. Rohit's offer included 25 users, multi-number WhatsApp routing, and auto-escalation at \u20b93.6 Lakhs. After negotiation, Rohit agreed to match LeadSquared's price of \u20b93.2 Lakhs if Aisha confirmed closure that day. Aisha agreed, pending a revised proposal and 45-day payment terms."
+  },
+  {
+    "id": "call_009",
+    "team": [
+      "Vinod Mehta",
+      "Mahesh Batra"
+    ],
+    "customer": "Mahesh Batra",
+    "discussion": "Vinod Mehta and Mahesh Batra discussed the review of a CRM proposal. Vinod offered to prepare a detailed ROI and feature comparison, including a side-by-side comparison with HubSpot. Mahesh requested a walkthrough for their CTO to review workflow automation and escalation rules. A final decision will be made after a demo and approval from the CFO."
+  },
+  {
+    "id": "call_003",
+    "team": [
+      "Mehul Kapoor",
+      "Sanjay Rathi"
+    ],
+    "customer": "Sanjay Rathi",
+    "discussion": "Mehul Kapoor and Sanjay Rathi discussed the comparison between Mehul's proposal and Salesforce CRM. Sanjay's team had concerns about Salesforce's API call limit. They agreed to a technical walkthrough of Mehul's platform, focusing on automation triggers, API flexibility, and Slack integration. If the demo goes well, Sanjay's team may request a custom comparison sheet. The decision between Mehul's platform and Salesforce will be made post-demo."
+  },
+  {
+    "id": "call_004",
+    "team": [
+      "Tanya Singh"
+    ],
+    "customer": "Deepak Yadav",
+    "discussion": "Tanya Singh and Deepak Yadav discussed a lead routing and call tracking solution for 18 field agents. Deepak expressed concerns about the cost, comparing it to HubSpot's cheaper plan. Tanya offered to adjust the features to lower the cost, but Deepak revealed that the decision to go with HubSpot had already been made. Tanya offered to keep their quote valid for 60 days in case of any issues with HubSpot's implementation."
+  },
+  {
+    "id": "call_010",
+    "team": [
+      "Rohan Kapoor",
+      "Sneha Verma"
+    ],
+    "customer": "Sneha Verma",
+    "discussion": "Rohan Kapoor and Sneha Verma discussed the comparison between their automation CRM and Freshdesk's proposal. Sneha's team is leaning towards Freshdesk due to cost-saving measures, despite Rohan's attempts to match the price and offer additional support. Sneha agreed to keep Rohan's proposal open for 30 days in case Freshdesk fails to meet their expectations."
+  },
+  {
+    "id": "call_007",
+    "team": [
+      "Kavya Bansal",
+      "Prakash Patel"
+    ],
+    "customer": "Prakash Patel",
+    "discussion": "Kavya Bansal and Prakash Patel discussed the need for multi-language support in the CRM system. Prakash expressed that immediate full language support is a non-negotiable requirement for their team. Kavya offered a temporary workaround and future implementation of full multilingual support, but Prakash decided to move forward with Salesforce due to immediate needs. The proposal was left open for future consideration."
+  }
+]

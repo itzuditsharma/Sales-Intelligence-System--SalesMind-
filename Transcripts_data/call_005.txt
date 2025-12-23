@@ -1,0 +1,10 @@
+2025-5-05 11:30 – Rohan Kapoor: Hydra team discussed our SaaS stack with Freshdesk and Salesforce. Any insights?  
+2025-5-05 11:31 – Tarini Mehra: Freshdesk quoted ₹3.4 Lakhs, Salesforce ₹4.2 Lakhs. Both include onboarding.  
+2025-5-05 11:32 – Rohan Kapoor: Our Freshworks proposal is ₹3.8 Lakhs with advanced automation and AI analytics.  
+2025-5-05 11:33 – Tarini Mehra: Budget is tight; finance prefers Freshdesk.  
+2025-5-05 11:34 – Rohan Kapoor: If I reduce to ₹3.5 Lakhs, would that be acceptable?  
+2025-5-05 11:35 – Tarini Mehra: Closer, but Salesforce offers integration with legacy systems.  
+2025-5-05 11:36 – Rohan Kapoor: I can include migration support and match onboarding period.  
+2025-5-05 11:37 – Tarini Mehra: Leadership will review; your improvements make Freshworks competitive.  
+2025-5-05 11:38 – Rohan Kapoor: Great. I’ll share the revised quote today.  
+2025-5-05 11:39 – Tarini Mehra: Thanks, Rohan. Will confirm after internal review.

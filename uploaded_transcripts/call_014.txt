@@ -1,0 +1,10 @@
+2025-12-11 10:12 – Aarav Sharma: Neha, Hydra reviewed Zoho Desk vs Freshdesk for ticket automation. Thoughts?
+2025-12-11 10:13 – Neha Rao: Freshdesk quoted ₹4.7 Lakhs, Zoho Desk ₹4.3 Lakhs.
+2025-12-11 10:14 – Aarav Sharma: Hydra’s proposal stands at ₹5 Lakhs with AI routing and escalation matrix.
+2025-12-11 10:15 – Neha Rao: Finance prefers Zoho, but Ops wants escalation features.
+2025-12-11 10:16 – Aarav Sharma: I can match Zoho’s pricing and add auto-escalation for 3 months.
+2025-12-11 10:17 – Neha Rao: That helps, but Freshdesk includes free onboarding.
+2025-12-11 10:18 – Aarav Sharma: I’ll include onboarding and team training.
+2025-12-11 10:19 – Neha Rao: Great, leadership will review.
+2025-12-11 10:20 – Aarav Sharma: Sending updated proposal shortly.
+2025-12-11 10:21 – Neha Rao: Perfect, thanks Aarav.

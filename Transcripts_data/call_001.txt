@@ -1,0 +1,12 @@
+2025-1-17 14:26 – Tanya Singh: If I remove advanced analytics and only include routing + call tracking, I can rework pricing to ₹1.85 Lakhs.  
+2025-1-17 14:27 – Deepak Yadav: ₹1.85 Lakhs is still above the cap. We were strictly allocated ₹1.5 Lakhs for CRM stack this quarter.  
+2025-1-17 14:28 – Tanya Singh: Any possibility of phase-wise rollouts? Starting with routing at a lower cost and adding analytics later?  
+2025-1-17 14:29 – Deepak Yadav: That’s an idea, but finance has already bucketed budgets and they won’t re-open line items until April.  
+2025-1-17 14:30 – Tanya Singh: If we match ₹1.5 Lakhs for phase one with just lead routing and basic tracking, would that help?  
+2025-1-17 14:31 – Deepak Yadav: Honestly, Tanya, the moment HubSpot offered the ₹1.5 Lakhs deal with free onboarding, finance froze the decision.  
+2025-1-17 14:32 – Tanya Singh: Got it. Have they signed or just verbally approved?  
+2025-1-17 14:33 – Deepak Yadav: Just verbal approval so far. They want to review Q1 results before finalizing.  
+2025-1-17 14:34 – Tanya Singh: Okay. Should we prepare a phased implementation plan with metrics for phase one?  
+2025-1-17 14:35 – Deepak Yadav: Yes, please. Highlight the expected ROI and reduce initial complexity.  
+2025-1-17 14:36 – Tanya Singh: Will do. Also, I’ll include a comparison with Salesforce’s proposal to show cost efficiency.  
+2025-1-17 14:37 – Deepak Yadav: Perfect. That should strengthen our case for NovaHealth Systems.
