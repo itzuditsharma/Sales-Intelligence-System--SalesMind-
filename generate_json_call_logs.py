@@ -1,10 +1,11 @@
 import os
 import json
 import openai
-
+from dotenv import load_dotenv
+load_dotenv
 # Make sure you have set your OpenAI API key in environment
 # export OPENAI_API_KEY="your_api_key_here"
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def extract_call_summary(filepath):
