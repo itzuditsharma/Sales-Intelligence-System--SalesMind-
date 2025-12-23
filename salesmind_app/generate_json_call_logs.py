@@ -6,9 +6,7 @@ from django.conf import settings
 from dotenv import load_dotenv
 load_dotenv()
 # Make sure you have set your OpenAI API key in environment
-# export OPENAI_API_KEY="your_api_key_here"
 openai.api_key = os.getenv("OPENAI_API_KEY")
-# openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def extract_call_summary(filepath):
     """Uses OpenAI to extract team, customer, and discussion summary."""
