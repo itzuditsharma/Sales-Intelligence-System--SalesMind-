@@ -40,7 +40,8 @@ The platform enables sales leaders to:
 <img width="1866" height="822" alt="image (2)" src="https://github.com/user-attachments/assets/8aadccca-8f3d-41b7-ad85-fab40a729544" />
 
 ### AI Assistant
-<img width="1866" height="822" alt="image (2)" src="https://github.com/user-attachments/assets/bd54ac2d-3a33-45d1-ab19-4d237b604bd4" />
+<img width="1919" height="829" alt="image (9)" src="https://github.com/user-attachments/assets/f3aa84e0-2920-4191-a656-1bab87419d1b" />
+
 
 ### Call Logs 
 <img width="1897" height="824" alt="image (3)" src="https://github.com/user-attachments/assets/7ff05643-5926-446a-9d5c-f9bd91ef49b1" />
